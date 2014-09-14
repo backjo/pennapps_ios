@@ -14,6 +14,14 @@
 		94F4F52619C5190B00F0D7DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F4F52519C5190B00F0D7DC /* Images.xcassets */; };
 		94F4F52919C5190B00F0D7DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F4F52719C5190B00F0D7DC /* LaunchScreen.xib */; };
 		94F4F53519C5190B00F0D7DC /* pennappsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F4F53419C5190B00F0D7DC /* pennappsTests.m */; };
+		94F4F53F19C519CE00F0D7DC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F53E19C519CE00F0D7DC /* FacebookSDK.framework */; };
+		94F4F54219C51D5F00F0D7DC /* GroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F4F54119C51D5F00F0D7DC /* GroupTableViewController.m */; };
+		94F4F54419C5220200F0D7DC /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54319C5220200F0D7DC /* Firebase.framework */; };
+		94F4F54719C5222300F0D7DC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54519C5222300F0D7DC /* libc++.dylib */; };
+		94F4F54819C5222300F0D7DC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54619C5222300F0D7DC /* libicucore.dylib */; };
+		94F4F54A19C5222F00F0D7DC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54919C5222F00F0D7DC /* CFNetwork.framework */; };
+		94F4F54C19C5223400F0D7DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54B19C5223400F0D7DC /* Security.framework */; };
+		94F4F54E19C5223B00F0D7DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F4F54D19C5223B00F0D7DC /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,15 @@
 		94F4F52E19C5190B00F0D7DC /* pennappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pennappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F4F53319C5190B00F0D7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F4F53419C5190B00F0D7DC /* pennappsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pennappsTests.m; sourceTree = "<group>"; };
+		94F4F53E19C519CE00F0D7DC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		94F4F54019C51D5F00F0D7DC /* GroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewController.h; sourceTree = "<group>"; };
+		94F4F54119C51D5F00F0D7DC /* GroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewController.m; sourceTree = "<group>"; };
+		94F4F54319C5220200F0D7DC /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		94F4F54519C5222300F0D7DC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		94F4F54619C5222300F0D7DC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		94F4F54919C5222F00F0D7DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		94F4F54B19C5223400F0D7DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94F4F54D19C5223B00F0D7DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F4F54E19C5223B00F0D7DC /* SystemConfiguration.framework in Frameworks */,
+				94F4F54C19C5223400F0D7DC /* Security.framework in Frameworks */,
+				94F4F54A19C5222F00F0D7DC /* CFNetwork.framework in Frameworks */,
+				94F4F54719C5222300F0D7DC /* libc++.dylib in Frameworks */,
+				94F4F54819C5222300F0D7DC /* libicucore.dylib in Frameworks */,
+				94F4F53F19C519CE00F0D7DC /* FacebookSDK.framework in Frameworks */,
+				94F4F54419C5220200F0D7DC /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,13 @@
 		94F4F50C19C5190B00F0D7DC = {
 			isa = PBXGroup;
 			children = (
+				94F4F54D19C5223B00F0D7DC /* SystemConfiguration.framework */,
+				94F4F54B19C5223400F0D7DC /* Security.framework */,
+				94F4F54919C5222F00F0D7DC /* CFNetwork.framework */,
+				94F4F54519C5222300F0D7DC /* libc++.dylib */,
+				94F4F54619C5222300F0D7DC /* libicucore.dylib */,
+				94F4F54319C5220200F0D7DC /* Firebase.framework */,
+				94F4F53E19C519CE00F0D7DC /* FacebookSDK.framework */,
 				94F4F51719C5190B00F0D7DC /* pennapps */,
 				94F4F53119C5190B00F0D7DC /* pennappsTests */,
 				94F4F51619C5190B00F0D7DC /* Products */,
@@ -85,6 +116,8 @@
 				94F4F51D19C5190B00F0D7DC /* AppDelegate.m */,
 				94F4F51F19C5190B00F0D7DC /* ViewController.h */,
 				94F4F52019C5190B00F0D7DC /* ViewController.m */,
+				94F4F54019C51D5F00F0D7DC /* GroupTableViewController.h */,
+				94F4F54119C51D5F00F0D7DC /* GroupTableViewController.m */,
 				94F4F52219C5190B00F0D7DC /* Main.storyboard */,
 				94F4F52519C5190B00F0D7DC /* Images.xcassets */,
 				94F4F52719C5190B00F0D7DC /* LaunchScreen.xib */,
@@ -220,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F4F52119C5190B00F0D7DC /* ViewController.m in Sources */,
+				94F4F54219C51D5F00F0D7DC /* GroupTableViewController.m in Sources */,
 				94F4F51E19C5190B00F0D7DC /* AppDelegate.m in Sources */,
 				94F4F51B19C5190B00F0D7DC /* main.m in Sources */,
 			);
@@ -345,8 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = pennapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,8 +394,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = pennapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
