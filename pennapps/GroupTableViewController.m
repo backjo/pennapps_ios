@@ -42,6 +42,9 @@
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [[tableView cellForRowAtIndexPath:indexPath] setSelected:NO];
+    Firebase* user = [[self.firebase childByAppendingPath:@"users"] childByAppendingPath:self.userID];
+    NSString* groupID = [[self.groupItems objectAtIndex:indexPath.row] valueForKey:@"id"];
+    [[user childByAppendingPath:groupID] removeValue];
 }
 
 
